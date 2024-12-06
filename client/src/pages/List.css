@@ -1,0 +1,110 @@
+.section-usuarios{
+    padding: 110px 10%;
+    min-height: 100vh;
+}
+.contenedor-Usuarios{
+    width: 100%;
+    box-shadow: 0 0 4px #000;
+    padding: 50px ; 
+}
+
+.contenedor-Usuarios .content-h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #00dcc0;
+    border-bottom: 1px solid var(--text-color);
+}
+.contenedor-Usuarios .content-h1 h1{
+    color: #fff;
+}
+.contenedor-Usuarios .content-h1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    padding: 8px 22px;
+    outline: 1px solid #fff;
+    background-color:#00dcc0;
+    color: #fff;
+    border-radius: 20px;
+    transition: all .5s ease;
+
+    &:hover{
+        background-color: rgb(52, 176, 120);
+    }
+}
+
+.encabezado-info-usuarios{
+    display: flex;
+    padding: 20px ;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.encabezado-info-usuarios p{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.content-info{
+    width: auto;
+    padding: 12px ;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 2px solid #eee;
+    
+}
+
+.content-info p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-shadow: 0 0 1px #00dcc0;
+   width: 250px;
+  
+}
+
+.content-opciones{
+    display: flex;
+    gap: 10px;
+}
+.btn-editar{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    outline: 1px solid #007ff4;
+    padding: 8px 36px;
+    border-radius: 20px;
+    background-color: #007ff4;
+    color: #eee;
+    transition: .5s ease;
+
+    &:hover{
+        transform: scale(1.1);
+        background-color: #09f;
+    }
+}
+.btn-eliminar{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    outline: 1px solid #d6095b;
+    padding: 8px 36px;
+    border-radius: 20px;
+    background-color: #d6095b;
+    color: #eee;
+    transition: .4s ease;
+
+    &:hover{
+        transform: scale(1.1);
+       
+    }
+}
